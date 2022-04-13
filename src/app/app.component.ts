@@ -29,10 +29,9 @@ import '@esri/calcite-components/dist/components/calcite-switch';
 export class AppComponent implements OnInit {
   private OAuthInfo: OAuthInfo;
   username = 'Niet ingelogd';
-  title = 'CCR360';
+  title = 'AngularTest';
   darkEnabled = false;
-  theme = 'theme-brandweer';
-  profile = 'Brandweer';
+  theme = 'light';
 
   constructor() {
     if (environment.esriApiKey !== '') {
