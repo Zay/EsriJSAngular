@@ -1,0 +1,14 @@
+/*
+ * This is a sample file with all the settings we can use. The actual files are ignored from git.
+ * In order for this to work, if you don't have it, create two copies of this file
+ * environement.ts and environment.prod.ts
+ * Set the first to production: false and the second to production: true
+ * Never checkinn the actual keys, etc!
+ */ 
+export const environment = {
+    production: true, // true/false, is this a production environment?
+    portalAppId: "", // the portal/agol application id
+    portalUrl: "", // the url of the portal, including web adaptor url
+    esriApiKey: "" // the developer API key
+  };
+  
